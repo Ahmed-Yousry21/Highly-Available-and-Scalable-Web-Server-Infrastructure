@@ -32,6 +32,8 @@ This project demonstrates how to design a scalable and highly available web serv
   1. Create an EC2 instance through AWS Management Console or CLI.
   2. Deploy the web application and database on this instance.
 - **Key Tools**: AWS EC2, AWS CLI.
+- ![Architecture Diagram](images/Screenshot_17-12-2024_144027_.jpeg)
+
 
 ---
 
