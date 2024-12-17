@@ -32,7 +32,7 @@ This project demonstrates how to design a scalable and highly available web serv
   1. Create an EC2 instance through AWS Management Console or CLI.
   2. Deploy the web application and database on this instance.
 - **Key Tools**: AWS EC2, AWS CLI.
-- ![Architecture Diagram](images/Screenshot_17-12-2024_144027_.jpeg)
+ ![Architecture Diagram](images/Screenshot_17-12-2024_144027_.jpeg)
 
 
 ---
@@ -43,6 +43,8 @@ This project demonstrates how to design a scalable and highly available web serv
 - **Actions**:
   1. Create a VPC with two public and two private subnets.
 - **Tools Used**: AWS VPC, AWS CLI.
+ ![Architecture Diagram](images/Screenshot_17-12-2024_144240_.jpeg)
+
 
 #### Step 2.2: Auto Scaling Setup
 - **Objective**: Enable automatic scaling of web servers based on traffic.
@@ -50,13 +52,18 @@ This project demonstrates how to design a scalable and highly available web serv
   1. Configure an Auto Scaling Group with desired capacity: 2, min: 2, max: 4.
   2. Deploy EC2 instances across public subnets.
 - **Key Tools**: AWS Auto Scaling Groups, AWS Management Console.
-
+![Architecture Diagram](images/Screenshot_17-12-2024_144533_.jpeg)
+![Architecture Diagram](images/Screenshot_17-12-2024_144540_.jpeg)
+![Architecture Diagram](images/Screenshot_17-12-2024_144546_.jpeg)
 #### Step 2.3: Load Balancer Configuration
 - **Objective**: Distribute incoming requests evenly across EC2 instances.
 - **Actions**:
   1. Set up an Application Load Balancer (ALB) in public subnets.
   2. Configure security groups to allow HTTP/HTTPS traffic.
 - **Tools Used**: AWS ALB, AWS CLI.
+![Architecture Diagram](images/Screenshot_17-12-2024_144818_.jpeg)
+![Architecture Diagram](images/Screenshot_17-12-2024_144826_.jpeg)
+![Architecture Diagram](images/Screenshot_17-12-2024_144835_.jpeg)
 
 ---
 
