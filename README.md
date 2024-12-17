@@ -73,13 +73,14 @@ This project demonstrates how to design a scalable and highly available web serv
 - **Actions**:
   1. Create a MySQL RDS instance and manage credentials via AWS Secrets Manager.
 - **Tools Used**: AWS RDS, AWS Secrets Manager.
+![Architecture Diagram](images/Screenshot_17-12-2024_145054_.jpeg)
 
 #### Step 3.2: Database Security Group
 - **Goal**: Limit database access to authorized applications.
 - **Actions**:
   1. Set up a security group to permit MySQL traffic (port 3306) only from the web app.
 - **Key Tools**: AWS Security Groups, AWS Management Console.
-
+![Architecture Diagram](images/Screenshot_17-12-2024_145414_.jpeg)
 ---
 
 ### Phase 4: Database Migration
@@ -88,6 +89,7 @@ This project demonstrates how to design a scalable and highly available web serv
   1. Export the database from EC2.
   2. Import the database dump into RDS.
 - **Tools Used**: MySQL, AWS RDS, AWS EC2.
+
 
 ---
 
@@ -101,18 +103,21 @@ The estimated costs for maintaining this infrastructure over a year:
 - **VPC NAT Gateway**: $396.96/year.
 
 Refer to the [AWS Pricing Calculator](https://calculator.aws/#/estimate) for details.
+  ![Architecture Diagram](images/Screenshot_17-12-2024_145138_.jpeg)
 
 ---
 
 ## Validation and Testing
 
 The deployment was verified by performing CRUD operations in the web app to ensure proper functionality.
+  ![Architecture Diagram](images/Screenshot_17-12-2024_145116_.jpeg)
 
 ---
 
 ## Architecture Diagram
 
-(Include or generate an architecture diagram representing the infrastructure setup.)
+  ![Architecture Diagram](images/Screenshot_17-12-2024_145122_.jpeg)
+
 
 ---
 
